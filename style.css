@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Header and nevigation Style */
+
+.header {
+  background: #fff8f3;
+  background-image: url("images/header_bg.png"), url("images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 200px 0px;
+  padding-top: 15px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.button-prymary {
+  height: 64px;
+  padding: 0px 10px;
+  background-color: #fd6e0a;
+  color: aqua;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  border: 0;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.text-primary {
+  color: #fd6e0a;
+}
+
+/* Banner style */
+.banner {
+  margin: 0px 200px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-sub {
+  font-weight: 600;
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 20px;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 85px;
+  color: #181818;
+}
+
+.banner-para {
+  font-size: 18px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+/* Main style */
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* About section section style */
+.about {
+  margin: 130px 0px 130px 0px;
+
+  background: #fff8f3;
+  border-radius: 10px;
+  padding: 130px 150px;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.section-para {
+  text-align: center;
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.personal-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-ti {
+  font-size: 20px;
+  font-weight: 400;
+  color: #757575;
+  text-align: center;
+}
+
+.sub-info {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* What I Do Style */
+
+.wID-sec {
+  max-width: 909px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Skill section */
+.skill-sec {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 130px 0;
+  /* margin-top: 50px; */
+}
+
+.skill-specific {
+  max-width: 267px;
+  height: 377px;
+
+  background-color: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+}
+
+.skill-specific img {
+  margin: 30px 0 30px 30px;
+}
+
+.skill-specific .sub-info {
+  margin: 0 0 20px 30px;
+}
+
+.skill-specific p {
+  font-size: 16px;
+  font-weight: 400;
+  /* margin-left: 30px; */
+  margin: 0 30px 0 30px;
+}
+
+/* Summary section Style */
+.summary-sec {
+  margin-bottom: 50px;
+}
+
+.summary-sec h3 {
+  margin-bottom: 113px;
+}
+
+.ex-ed h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #474747;
+}
+
+.ex-ed div {
+  width: 511px;
+}
+
+.ex-ed div h4 {
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #474747;
+}
+
+.ex-ed div h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #757575;
+}
+
+.ex-ed div p {
+  color: #757575;
+}
+
+.ex-ed hr {
+  width: 558px;
+  margin: 30px 0 30px 0;
+}
+
+.exp-ed-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Main button  */
+.main-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+/* Footer Style */
+.contact {
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+  padding: 130px 200px;
+}
+.contact a {
+    text-decoration: none;
+}
+.contact p {
+    margin-bottom: 30px;
+}
+
+.footer-title {
+  text-align: left;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+div form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact input[type="text"],.contact input[type="email"],
+textarea {
+  margin-bottom: 24px;
+  width: 100%;
+  border: 0;
+  padding: 18px 30px;
+}
+
+.contact input {
+  height: 64px;
+}
+.exa{
+    width: 100px;
+}
